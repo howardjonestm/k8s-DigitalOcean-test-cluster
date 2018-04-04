@@ -1,8 +1,8 @@
-# Setting up 2-node K8s test cluster on DigitalOcean using kubeadm
+# Setting up a 2 node K8s test cluster on DigitalOcean using Kubeadm
 
 Original tutorial followed at: https://thenewstack.io/tutorial-run-multi-node-kubernetes-cluster-digitalocean/
 
-**Pre requisites**
+**Pre-requisites**
 * DigitalOcean account with credit/payment details
 * DigitalOcean CLI installed 
 * Kubectl installed

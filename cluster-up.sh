@@ -22,7 +22,6 @@ sh create-master.sh $region $SSH_KEY
 
 time sleep 500
 
-
 MASTER_ID=`doctl compute droplet list | grep "master" |cut -d' ' -f1`
 MASTER_IP=`doctl compute droplet get $MASTER_ID --format PublicIPv4 --no-header`
 sed -i.bak "s/^MASTER_IP=.*/MASTER_IP=${MASTER_IP}/" ./node.sh

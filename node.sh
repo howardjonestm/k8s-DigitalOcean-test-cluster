@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TOKEN=ed9d2f.6d681488d1866e3a
-MASTER_IP=000.000.00.00
+TOKEN=d0c3b5.109be50df17bae95
+MASTER_IP=206.189.16.115
 
 apt-get update && apt-get upgrade -y
 

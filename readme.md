@@ -2,10 +2,16 @@
 
 Original tutorial followed at: https://thenewstack.io/tutorial-run-multi-node-kubernetes-cluster-digitalocean/
 
-* Need digitalocean CLI and kubectl setup
-* Add digitalocean ssh key name to "cluster-up.ssh"
+**Pre requisites**
+* DigitalOcean account with credit/payment details
+* DigitalOcean CLI installed 
+* Kubectl installed
+
+**Procedure**
+* Add DigitalOcean ssh key-name to "cluster-up.ssh"
 * Add desired region to "cluster-up.ssh"
-* Use "kubectl --kubeconfig ./admin.conf get nodes" to check cluster is up, this will take a few minutes
+* Run "cluster-up.sh", this will take around 15 minutes
+* Use "kubectl --kubeconfig ./admin.conf get nodes" to check cluster is up, this will take an additonal minute or so
 
 
 
